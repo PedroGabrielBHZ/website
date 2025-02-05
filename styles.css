@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.image {
+    width: 35%;
+    height: auto;
+}
+
+.spaced-list li {
+    margin-bottom: 15px;
+    /* Adjust the value as needed */
+}
