@@ -33,18 +33,6 @@ assets/
 - **Contact Information**: Provides email, GitHub, and LinkedIn links.
 - **Downloadable CVs**: Offers CVs in both English and Portuguese for download.
 
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Open `index.html` in a web browser to view the website locally.
-
-## Dependencies
-
-- [Bootstrap 5.3.5](https://getbootstrap.com/): Used for styling and layout.
-
 ## License
 
 This project is © 2025 Pedro Gabriel Amorim Soares. All rights reserved.
