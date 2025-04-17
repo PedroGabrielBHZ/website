@@ -4,158 +4,165 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV Digest - Pedro Soares</title>
+    <title>CV - Pedro Soares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pedro Soares</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cv_digest.html">CV Digest</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container mt-5">
-        <div class="content">
-            <h1>Pedro Gabriel Amorim Soares</h1>
-            <div class="contact">
-                <p>Email: pedrogabrielbhz@gmail.com</p>
-                <p>GitHub: <a href="https://github.com/PedroGabrielBHZ" target="_blank">PedroGabrielBHZ</a></p>
-                <p>Website: <a href="https://pedrogabrielbhz.github.io/website/" target="_blank">My Website</a></p>
-            </div>
-
-            <div class="section">
-                <h2>Education</h2>
-                <p><strong>Computer Science BSc</strong> - Pontifícia Universidade Católica de Minas Gerais (PUC MG)</p>
-                <p>Previous studies in Computational Mathematics at UFMG (2019-2022)</p>
-                <p><strong>Exchange Program</strong> - Université Gustave Eiffel (ESIEE Paris, 2024-2025)</p>
-                <ul>
-                    <li>Cybersecurity, Cryptography & Communication Security</li>
-                    <li>Algorithms, High-Performance Computing, Computer Vision</li>
-                    <li>Mathematical Optimization and Graph Theory</li>
-                    <li>French Language and Culture</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Professional Experience</h2>
-                <div class="job">
-                    <h3>Software Engineering Intern - VulcaNet</h3>
-                    <p><em>2022 | Remote, Campinas, SP</em></p>
-                    <ul>
-                        <li>Scalability and performance improvements in distributed VoIP and messaging systems.</li>
-                        <li>Microservices in Python and TypeScript, applying DDD and CQRS patterns.</li>
-                        <li>Refactoring ORM integration (SQLAlchemy + GraphQL).</li>
-                        <li>Agile practices, Git, CI/CD tooling and monitoring setup.</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h3>Research Assistant - DCC / MPMG Analytical Capabilities Program</h3>
-                    <p><em>2021</em></p>
-                    <ul>
-                        <li>Algorithm development in Python/Spark for pattern mining in public data graphs.</li>
-                        <li>Technologies: Docker, MySQL, PySpark, ArangoDB, JanusGraph.</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h3>Volunteer Researcher - DCC</h3>
-                    <p><em>2021</em></p>
-                    <ul>
-                        <li>Worked in Google's Latin America Research Awards project on Covid-19 survival factors.</li>
-                        <li>Published in "Intelligent Systems" by Springer, presented at BRACIS.</li>
-                        <li>AI modeling, high-dimensional data optimization, Python development.</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h3>Volunteer Researcher - FACE</h3>
-                    <p><em>2019-2020</em></p>
-                    <ul>
-                        <li>Prediction of insolvency of Brazilian health insurance providers using AI.</li>
-                        <li>Data visualization and exploration (Pandas, Matplotlib, Plotly).</li>
-                        <li>Classification models and genetic algorithms (DEAP, scikit-learn, TensorFlow).</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h3>Research Intern - ENACOM</h3>
-                    <p><em>2020</em></p>
-                    <ul>
-                        <li>ML models for failure prediction in industrial processes (Python, feature engineering).</li>
-                        <li>Development of real-time adaptability systems.</li>
-                    </ul>
-                </div>
-
-                <div class="job">
-                    <h3>Research Intern - UNIGOU Program (Czech Technical University)</h3>
-                    <p><em>Jan-Feb 2020 | Prague</em></p>
-                    <ul>
-                        <li>Experimental research on human video quality perception and its impacts on critical tasks.
+<body class="d-flex flex-column min-vh-100">
+    <div class="flex-grow-1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pedro Soares</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li>Applied statistical methods and presented results academically.</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv_digest.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="content">
+                <h1>Pedro Gabriel Amorim Soares</h1>
+                <div class="contact">
+                    <p><strong>Email:</strong> pedrogabrielbhz@gmail.com</p>
+                    <p>GitHub: <a href="https://github.com/PedroGabrielBHZ" target="_blank">PedroGabrielBHZ</a></p>
+                    <p>Website: <a href="https://pedrogabrielbhz.github.io/website/" target="_blank">My Website</a></p>
+                </div>
 
-            <div class="section">
-                <h2>Projects</h2>
-                <ul></ul>
-                <li><a href="https://github.com/PedroGabrielBHZ/AStarRoutePlanner" target="_blank">Route Planner (A*
-                        Search)</a></li>
-                <li><a href="https://github.com/PedroGabrielBHZ/SysMonitor" target="_blank">System Monitor with
-                        Ncurses</a></li>
-                <li><a href="https://github.com/PedroGabrielBHZ/Verkehrssimulator" target="_blank">Traffic Control
-                        Simulator</a></li>
-                </ul>
-            </div>
+                <div class="section">
+                    <h2>Education</h2>
+                    <p><strong>Computer Science BSc</strong> - Pontifícia Universidade Católica de Minas Gerais (PUC MG)
+                    </p>
+                    <p>Previous studies in Computational Mathematics at UFMG (2019-2022)</p>
+                    <p><strong>Exchange Program</strong> - Université Gustave Eiffel (ESIEE Paris, 2024-2025)</p>
+                    <ul>
+                        <li>Cybersecurity, Cryptography & Communication Security</li>
+                        <li>Algorithms, High-Performance Computing, Computer Vision</li>
+                        <li>Mathematical Optimization and Graph Theory</li>
+                        <li>French Language and Culture</li>
+                    </ul>
+                </div>
 
-            <div class="section">
-                <h2>Courses</h2>
-                <ul>
-                    <li>C++ Nanodegree, Udacity (2022)</li>
-                    <li>Neural Networks and Deep Learning, Coursera (Andrew Ng, 2020)</li>
-                    <li>Python for Machine Learning and Data Exploration (2019-2021)</li>
-                </ul>
-            </div>
+                <div class="section">
+                    <h2>Professional Experience</h2>
+                    <div class="job">
+                        <h3>Software Engineering Intern - VulcaNet</h3>
+                        <p><em>2022 | Remote, Campinas, SP</em></p>
+                        <ul>
+                            <li>Scalability and performance improvements in distributed VoIP and messaging systems.</li>
+                            <li>Microservices in Python and TypeScript, applying DDD and CQRS patterns.</li>
+                            <li>Refactoring ORM integration (SQLAlchemy + GraphQL).</li>
+                            <li>Agile practices, Git, CI/CD tooling and monitoring setup.</li>
+                        </ul>
+                    </div>
 
-            <div class="section">
-                <h2>Languages</h2>
-                <ul>
-                    <li>English – Advanced (TOEFL iBT: 107/120)</li>
-                    <li>French – Intermediate (Exchange program in France)</li>
-                    <li>German – Basic (Cultural Exchange, Berlin 2018)</li>
-                </ul>
-            </div>
+                    <div class="job">
+                        <h3>Research Assistant - DCC / MPMG Analytical Capabilities Program</h3>
+                        <p><em>2021</em></p>
+                        <ul>
+                            <li>Algorithm development in Python/Spark for pattern mining in public data graphs.</li>
+                            <li>Technologies: Docker, MySQL, PySpark, ArangoDB, JanusGraph.</li>
+                        </ul>
+                    </div>
 
-            <div class="section">
-                <h2>Extracurricular Activities</h2>
-                <ul>
-                    <li>Club Musique: Musical performances and piano lessons.</li>
-                    <li>Club Photo: Creative photography projects.</li>
-                    <li>Club*Nix: Open-source advocacy, Linux Installfests.</li>
-                </ul>
+                    <div class="job">
+                        <h3>Volunteer Researcher - DCC</h3>
+                        <p><em>2021</em></p>
+                        <ul>
+                            <li>Worked in Google's Latin America Research Awards project on Covid-19 survival factors.
+                            </li>
+                            <li>Published in "Intelligent Systems" by Springer, presented at BRACIS.</li>
+                            <li>AI modeling, high-dimensional data optimization, Python development.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3>Volunteer Researcher - FACE</h3>
+                        <p><em>2019-2020</em></p>
+                        <ul>
+                            <li>Prediction of insolvency of Brazilian health insurance providers using AI.</li>
+                            <li>Data visualization and exploration (Pandas, Matplotlib, Plotly).</li>
+                            <li>Classification models and genetic algorithms (DEAP, scikit-learn, TensorFlow).</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3>Research Intern - ENACOM</h3>
+                        <p><em>2020</em></p>
+                        <ul>
+                            <li>ML models for failure prediction in industrial processes (Python, feature engineering).
+                            </li>
+                            <li>Development of real-time adaptability systems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <h3>Research Intern - UNIGOU Program (Czech Technical University)</h3>
+                        <p><em>Jan-Feb 2020 | Prague</em></p>
+                        <ul>
+                            <li>Experimental research on human video quality perception and its impacts on critical
+                                tasks.
+                            </li>
+                            <li>Applied statistical methods and presented results academically.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Projects</h2>
+                    <ul></ul>
+                    <li><a href="https://github.com/PedroGabrielBHZ/AStarRoutePlanner" target="_blank">Route Planner (A*
+                            Search)</a></li>
+                    <li><a href="https://github.com/PedroGabrielBHZ/SysMonitor" target="_blank">System Monitor with
+                            Ncurses</a></li>
+                    <li><a href="https://github.com/PedroGabrielBHZ/Verkehrssimulator" target="_blank">Traffic Control
+                            Simulator</a></li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Courses</h2>
+                    <ul>
+                        <li>C++ Nanodegree, Udacity (2022)</li>
+                        <li>Neural Networks and Deep Learning, Coursera (Andrew Ng, 2020)</li>
+                        <li>Python for Machine Learning and Data Exploration (2019-2021)</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English – Advanced (TOEFL iBT: 107/120)</li>
+                        <li>French – Intermediate (Exchange program in France)</li>
+                        <li>German – Basic (Cultural Exchange, Berlin 2018)</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Extracurricular Activities</h2>
+                    <ul>
+                        <li>Club Musique: Musical performances and piano lessons.</li>
+                        <li>Club Photo: Creative photography projects.</li>
+                        <li>Club*Nix: Open-source advocacy, Linux Installfests.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <footer class="text-center mt-5 py-3" style="background-color: #f8f9fa; border-top: 1px solid #ddd;">
         <p>© 2025 Pedro Gabriel Amorim Soares</p>
         <p>
-            <a href="mailto:pedrogabrielbhz@gmail.com">Email</a> |
+            <a href="mailto:pedrogabrielbhz@gmail.com" style="font-weight: bold; font-style: normal;">Email</a> |
             <a href="https://github.com/PedroGabrielBHZ" target="_blank">GitHub</a> |
             <a href="https://www.linkedin.com/in/pedro-gabriel-soares-34a81529a/" target="_blank">LinkedIn</a>
         </p>
